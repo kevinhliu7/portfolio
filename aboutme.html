@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>About Me</title>
+    <style>
+      #pfp {
+        border-radius: 50%;
+        width: 10vh;
+        min-width: 50px;
+      }
+      #pfp:hover {
+        transform: scale(1.1);
+      }
+
+      :root {
+        --red: tomato;
+        --bgColor: bisque;
+      }
+
+      img.framed {
+        box-shadow:
+          -50px -50px 0 -40px var(--red),
+          50px 50px 0 -40px var(--red);
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg mb-5">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/kevinhemingliu/"><img id="pfp" src="images/pfp.PNG" class="h-25 m-0 p-0" /></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./texts/Resume.pdf">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./projects.html">Projects</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container d-flex flex-column align-items-center mb-5">
+        <figure>
+          <img src="images/pfp.PNG" class="framed"></img>
+          <br />
+          <br />
+        </figure>
+        <h1 class="mb-5" style="text-align: center;">Hi! Welcome to my personal website.</h1>
+        <p style="text-align: center;">
+          My name is Kevin Liu, and I am currently a student and aspiring Software Engineer 
+          pursuing a Bachelor of Science in Mathematics and Computer Science with a minor in Statistics at the University of Illinois at Urbana-Champaign. Maintaining a GPA of 3.94/4.00, 
+          I have developed a strong foundation in programming languages such as Java, Python, C, and C++, and I am proficient with various tools and libraries including React.js, Docker, and AWS. 
+          Throughout my academic career, I have engaged in several impactful projects and research initiatives, allowing me to apply and expand my technical skills in practical settings.
+          <br />
+          <br />
+          One of the most significant experiences in my academic journey was serving as an Undergraduate Research Assistant at Argonne National Laboratory. 
+          There, I conducted a comprehensive performance benchmark analysis for MPICH's SMP Broadcast algorithm, providing critical insights into design efficiency and potential performance enhancements. 
+          Additionally, my role as a Research Software Engineer at the Illinois Mathematics Lab involved developing a web-based game using React.js to explore counterexamples to the Kaplansky conjectures, 
+          showcasing my ability to combine software development with advanced mathematical concepts. 
+          Furthermore, as a Course Associate/Assistant for CS124, I facilitated learning for over 1200 students, developed code walkthroughs, and mentored new staff members, 
+          demonstrating my commitment to academic excellence and leadership. These diverse experiences have not only honed my technical expertise but also strengthened my leadership and communication skills, 
+          equipping me for future contributions in the fields of mathematics, software engineering, and computer science.</p>
+      </div>
+</body>
+</html>

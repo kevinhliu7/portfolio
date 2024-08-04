@@ -1,0 +1,12 @@
+          My name is Kevin Liu, and I am currently a student and aspiring Software Engineer 
+          pursuing a Bachelor of Science in Mathematics and Computer Science with a minor in Statistics at the University of Illinois at Urbana-Champaign. Maintaining a GPA of 3.94/4.00, 
+          I have developed a strong foundation in programming languages such as Java, Python, C, and C++, and I am proficient with various tools and libraries including React.js, Docker, and AWS. 
+          Throughout my academic career, I have engaged in several impactful projects and research initiatives, allowing me to apply and expand my technical skills in practical settings.
+
+          One of the most significant experiences in my academic journey was serving as an Undergraduate Research Assistant at Argonne National Laboratory. 
+          There, I conducted a comprehensive performance benchmark analysis for MPICH's SMP Broadcast algorithm, providing critical insights into design efficiency and potential performance enhancements. 
+          Additionally, my role as a Research Software Engineer at the Illinois Mathematics Lab involved developing a web-based game using React.js to explore counterexamples to the Kaplansky conjectures, 
+          showcasing my ability to combine software development with advanced mathematical concepts. 
+          Furthermore, as a Course Associate/Assistant for CS124, I facilitated learning for over 1200 students, developed code walkthroughs, and mentored new staff members, 
+          demonstrating my commitment to academic excellence and leadership. These diverse experiences have not only honed my technical expertise but also strengthened my leadership and communication skills, 
+          equipping me for future contributions in the fields of mathematics, software engineering, and computer science.
